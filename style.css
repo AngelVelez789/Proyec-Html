@@ -7,15 +7,41 @@
 
 .button {
 
-background-color: blueviolet;    
+background-color: rgba(28, 17, 58, 0.685);    
 border-radius: 60px;
-color:brown;
-padding: 15px 32px;
+color:rgb(49, 96, 110);
+padding: 8px 22px;
 text-align: center;
 display:inline-block;
-font-size:16px;
+font-size:1 em;
 margin: 4px 2px;
 cursor: pointer;
+font-family: monospace;
 
 }
+
+
+.texto{
+
+    font-family:monospace ;
+
+}
+
+
+.button2 {
+
+    background-color: rgba(28, 17, 58, 0.685);    
+border-radius: 60px;
+color:rgb(49, 96, 110);
+padding: 8px 22px;
+text-align: center;
+display:inline-block;
+font-size:0.6 em;
+margin: 4px 2px;
+cursor: pointer;
+font-family: monospace
+
+
+}
+
 
