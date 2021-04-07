@@ -1,12 +1,12 @@
 var username = prompt("INGRESE SU NOMBRE");
 
-if (username == "jose"){
-document.write("7u7 bello")
+if (username == "pro123"){
+document.write("Usuario correcto")
 }
 
 else 
-    if (username!="jose"){
-            document.write("feo");
+    if (username!="pro123"){
+            document.write("Usuario incorrecto");
         }
 
 
