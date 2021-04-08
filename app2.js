@@ -1,12 +1,20 @@
-var username = prompt("INGRESE SU NOMBRE");
+var username = document.getElementById("nombre");
 
-if (username == "pro123"){
-document.write("Usuario correcto")
-}
 
-else 
-    if (username!="pro123"){
-            document.write("Usuario incorrecto");
+
+
+function valid(){
+
+    if (username.value == "lo123" ){
+        document.write("Usuario correcto")
+        window.location.href = "index.html";
+
+    }
+
+
+    else 
+        if (username.value  !="lo123"){
+            console.log("Usuario incorrecto");
         }
 
-
+}
