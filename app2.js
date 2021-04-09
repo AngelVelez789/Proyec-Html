@@ -14,7 +14,7 @@ function valid(){
 
     else 
         if (username.value  !="lo123"){
-            console.log("Usuario incorrecto");
+            mensajesError.push("Usuario incorrecto");
         }
 
 }
